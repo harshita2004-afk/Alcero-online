@@ -55,7 +55,7 @@ export default function Home() {
               <span className="italic text-rose">Worn with Love</span>
             </h2>
             <p className="text-muted leading-relaxed mb-4">
-              KashmiraLiving was born from a simple belief: that comfort at home shouldn't be a compromise. We are a growing lifestyle brand focused on providing breathable nightwear and quality home furnishing products that combine style, comfort, and everyday affordability.
+              Alcero was born from a simple belief: that comfort at home shouldn't be a compromise. We are a growing lifestyle brand focused on providing breathable nightwear and quality home furnishing products that combine style, comfort, and everyday affordability.
             </p>
             <p className="text-muted leading-relaxed mb-8">
               Rooted in India's rich textile heritage and guided by modern sensibility, every product we make is chosen with care — for fabric, for fit, and for the woman who wears it.

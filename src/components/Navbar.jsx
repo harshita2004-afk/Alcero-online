@@ -29,7 +29,7 @@ export default function Navbar() {
         {/* Logo */}
         <Link to="/" className="flex flex-col leading-none">
           <span className="font-display text-2xl font-semibold text-charcoal tracking-wide">
-            KashmiraLiving
+            ALCERO
           </span>
           <span className="text-[10px] uppercase tracking-[0.2em] text-muted font-body">
             Comfort · Style · Home
