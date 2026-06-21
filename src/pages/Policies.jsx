@@ -24,7 +24,7 @@ const policies = [
       },
       {
         heading: "Contact for Privacy",
-        body: "For any privacy-related concerns, write to us at privacy@kashmiraliving.in or call +91 98765 43210 during business hours.",
+        body: "For any privacy-related concerns, write to us at shrijihome01@gmail.com or call +91 94571 00114 during business hours.",
       },
     ],
   },
@@ -157,7 +157,7 @@ export default function Policies() {
             <span className="text-2xl">{current.icon}</span>
             <h2 className="font-display text-2xl font-semibold text-charcoal">{current.title}</h2>
           </div>
-          <p className="text-xs text-muted mb-8 uppercase tracking-wider">Last updated: December 2024</p>
+          <p className="text-xs text-muted mb-8 uppercase tracking-wider">Last updated: June 2026</p>
 
           <div className="space-y-8">
             {current.content.map((section, i) => (
@@ -173,8 +173,8 @@ export default function Policies() {
           <div className="mt-12 p-5 bg-blush/30 rounded-2xl border border-rose/10">
             <p className="text-sm text-muted">
               Questions about our policies? Write to us at{" "}
-              <a href="mailto:hello@kashmiraliving.in" className="text-rose hover:underline">
-                hello@kashmiraliving.in
+              <a href="mailto:shrijihome01@gmail.com" className="text-rose hover:underline">
+                shrijihome01@gmail.com
               </a>{" "}
               and we'll get back to you within 2 business days.
             </p>

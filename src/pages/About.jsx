@@ -29,12 +29,13 @@ export default function About() {
               Born from a love of<br />
               <span className="italic text-rose">everyday comfort</span>
             </h2>
-            <p className="text-muted leading-relaxed mb-4">
-              KashmiraLiving was founded in 2021 in Surat, Gujarat — the textile capital of India. What began as a small family venture sourcing premium cotton fabrics has grown into a brand trusted by thousands of women across the country.
-            </p>
-            <p className="text-muted leading-relaxed">
-              Our founder, inspired by her grandmother's handwoven cotton sarees, set out to recreate that feeling of home — soft, familiar, and beautifully simple — in nightwear and home furnishings that suit the modern Indian woman.
-            </p>
+          <p className="text-muted leading-relaxed mb-4">
+  Alcero was born from a simple belief — that comfort and style should go hand in hand. What started as a small effort to bring thoughtfully designed home and lifestyle essentials to families has grown into a brand focused on quality, elegance, and everyday comfort.
+</p>
+
+<p className="text-muted leading-relaxed">
+  From cozy nightwear to carefully crafted home furnishings, every Alcero product is chosen with attention to detail and a commitment to making daily living a little more beautiful. We believe that the smallest comforts often make the biggest difference.
+</p>
           </div>
           <div className="grid grid-cols-2 gap-4">
             <img
@@ -43,7 +44,7 @@ export default function About() {
               className="rounded-xl w-full aspect-square object-cover"
             />
             <img
-              src="https://images.unsplash.com/photo-1594938298603-c8148c4b4ae4?w=500&q=80"
+              src="/images/nightwear/nightwear icon/icon.jpeg"
               alt="Cotton nightwear"
               className="rounded-xl w-full aspect-square object-cover mt-6"
             />

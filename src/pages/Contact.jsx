@@ -36,19 +36,19 @@ export default function Contact() {
               {
                 icon: "✉️",
                 label: "Email",
-                value: "hello@kashmiraliving.in",
-                href: "mailto:hello@kashmiraliving.in",
+                value: "shrijihome01@gmail.com",
+                href: "mailto:shrijihome01@gmail.com",
               },
               {
                 icon: "📞",
                 label: "Phone",
-                value: "+91 98765 43210",
-                href: "tel:+919876543210",
+                value: "+91 94571 00114",
+                href: "tel:+919457100114",
               },
               {
                 icon: "📍",
                 label: "Address",
-                value: "42, Textile Market, Ring Road, Surat, Gujarat – 395003",
+                value: "2-1/1516, New Shivpuri Hapur, UP - 245101",
                 href: null,
               },
               {

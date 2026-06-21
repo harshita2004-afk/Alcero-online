@@ -55,19 +55,19 @@ export default function Footer() {
             <ul className="space-y-3 text-sm text-ivory/60">
               <li className="flex gap-2">
                 <span className="text-rose mt-0.5">✉</span>
-                <a href="mailto:hello@alcero.in" className="hover:text-rose transition-colors">
-                  hello@alcero.in
+                <a href="mailto:shrijihome01@gmail.com" className="hover:text-rose transition-colors">
+                  shrijihome01@gmail.com
                 </a>
               </li>
               <li className="flex gap-2">
                 <span className="text-rose mt-0.5">☎</span>
-                <a href="tel:+919876543210" className="hover:text-rose transition-colors">
-                  +91 98765 43210
+                <a href="tel:+919457100114" className="hover:text-rose transition-colors">
+                  +91 94571 00114
                 </a>
               </li>
               <li className="flex gap-2">
                 <span className="text-rose mt-0.5">📍</span>
-                <span>42, Textile Market, Surat, Gujarat – 395003</span>
+                <span>2-1/1516, New Shivpuri Hapur, UP - 245101</span>
               </li>
             </ul>
           </div>
@@ -75,7 +75,7 @@ export default function Footer() {
 
         {/* Bottom bar */}
         <div className="mt-12 pt-6 border-t border-ivory/10 flex flex-col md:flex-row justify-between items-center gap-3 text-xs text-ivory/30">
-          <p>© 2024 Alcero. All rights reserved.</p>
+          <p>© 2026 Alcero. All rights reserved.</p>
           <div className="flex gap-6">
             <Link to="/policies" className="hover:text-rose/70 transition-colors">Privacy Policy</Link>
             <Link to="/policies" className="hover:text-rose/70 transition-colors">Shipping Policy</Link>

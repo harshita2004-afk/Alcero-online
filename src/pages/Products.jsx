@@ -13,7 +13,7 @@ const tabs = [
 const subcategories = {
   all: [],
   "womens-nightwear": ["Cotton Nighties", "Printed Nightwear", "Lounge Wear"],
-  "home-furnishing": ["Bedsheets", "Cushion Covers", "Curtains", "Home Decor"],
+  "home-furnishing": ["Bedsheets"],
 };
 
 export default function Products() {

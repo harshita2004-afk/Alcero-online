@@ -64,15 +64,28 @@ export default function ProductCard({ product }) {
             </div>
             <div className="flex flex-wrap gap-1.5">
               {product.variants.map((variant, idx) => (
-                <button
-                  key={idx}
-                  onClick={() => { setActiveVariant(idx); setActiveImage(0); }}
-                  title={variant.color}
-                  className={`w-5 h-5 rounded-full border-2 transition-all ${
-                    activeVariant === idx ? "border-charcoal scale-110" : "border-transparent"
-                  }`}
-                  style={{ backgroundColor: variant.hex }}
-                />
+               <button
+  key={idx}
+  onClick={() => {
+    setActiveVariant(idx);
+    setActiveImage(0);
+  }}
+  title={variant.color}
+  className={`w-8 h-8 rounded-full p-[3px] transition-all ${
+    activeVariant === idx
+      ? "bg-charcoal scale-110"
+      : "bg-gray-300"
+  }`}
+>
+  <div
+    className="w-full h-full rounded-full"
+    style={{
+      background: variant.hex2
+        ? `linear-gradient(135deg, ${variant.hex} 50%, ${variant.hex2} 50%)`
+        : variant.hex,
+    }}
+  />
+</button>
               ))}
             </div>
           </div>
