@@ -12,11 +12,11 @@ export const products = [
   tag: null,
   hasVariants: true,
   variants: [
-    { color: "Light Blue", hex: "#87CEEB", images: ["public/images/nightwear/1/5.JPG", "public/images/nightwear/1/6.JPG", "public/images/nightwear/1/7.JPG", "public/images/nightwear/1/8.JPG"] },
-    { color: "Pink", hex: "#E8799B", images: ["public/images/nightwear/1/9.JPG", "public/images/nightwear/1/10.JPG", "public/images/nightwear/1/11.JPG", "public/images/nightwear/1/12.JPG"] },
-    { color: "Khaki Green", hex: "#4e4f13c4", images: ["public/images/nightwear/1/13.JPG", "public/images/nightwear/1/14.JPG", "public/images/nightwear/1/15.JPG", "public/images/nightwear/1/16.JPG"] },
-    { color: "Yellow", hex: "#FFD700", images: ["public/images/nightwear/1/17.JPG", "public/images/nightwear/1//18.JPG", "public/images/nightwear/1//19.JPG", "public/images/nightwear/1//20.JPG"] },
-    { color: "Peach", hex: "#FFCBA4", images: ["public/images/nightwear/1/29.JPG", "public/images/nightwear/1/30.JPG", "public/images/nightwear/1/31.JPG", "public/images/nightwear/1/32.JPG"] },
+    { color: "Light Blue", hex: "#87CEEB", images: ["public/images/nightwear/1/5.jpg", "public/images/nightwear/1/6.jpg", "public/images/nightwear/1/7.jpg", "public/images/nightwear/1/8.jpg"] },
+    { color: "Pink", hex: "#E8799B", images: ["public/images/nightwear/1/9.jpg", "public/images/nightwear/1/10.jpg", "public/images/nightwear/1/11.jpg", "public/images/nightwear/1/12.jpg"] },
+    { color: "Khaki Green", hex: "#4e4f13c4", images: ["public/images/nightwear/1/13.jpg", "public/images/nightwear/1/14.jpg", "public/images/nightwear/1/15.jpg", "public/images/nightwear/1/16.jpg"] },
+    { color: "Yellow", hex: "#FFD700", images: ["public/images/nightwear/1/17.jpg", "public/images/nightwear/1//18.jpg", "public/images/nightwear/1//19.jpg", "public/images/nightwear/1//20.jpg"] },
+    { color: "Peach", hex: "#FFCBA4", images: ["public/images/nightwear/1/29.jpg", "public/images/nightwear/1/30.jpg", "public/images/nightwear/1/31.jpg", "public/images/nightwear/1/32.jpg"] },
   ],
 },
   {
@@ -30,11 +30,11 @@ export const products = [
       tag: null,
       hasVariants: true,
       variants: [
-      { color: "Pink", hex: "#E8799B", images: ["public/images/nightwear/2/1.JPG", "public/images/nightwear/2/2.JPG", "public/images/nightwear/2/3.JPG", "public/images/nightwear/2/4.JPG"] },
-      { color: "Dark Green", hex: "#0d2802", images: ["public/images/nightwear/2/5.JPG", "public/images/nightwear/2/6.JPG", "public/images/nightwear/2/7.JPG", "public/images/nightwear/2/8.JPG"] },
-      { color: "Blue", hex: "#4A7AB5", images: ["public/images/nightwear/2/9.JPG", "public/images/nightwear/2/10.JPG", "public/images/nightwear/2/11.JPG", "public/images/nightwear/2/12.JPG"] },
-      { color: "Red", hex: "#C0392B", images: ["public/images/nightwear/2/13.JPG", "public/images/nightwear/2/14.JPG", "public/images/nightwear/2/15.JPG", "public/images/nightwear/2/16.JPG"] },
-      { color: "Light Green", hex: "#5eac59", images: ["public/images/nightwear/2/17.JPG", "public/images/nightwear/2/18.JPG", "public/images/nightwear/2/19.JPG", "public/images/nightwear/2/20.JPG"] },
+      { color: "Pink", hex: "#E8799B", images: ["public/images/nightwear/2/1.jpg", "public/images/nightwear/2/2.jpg", "public/images/nightwear/2/3.jpg", "public/images/nightwear/2/4.jpg"] },
+      { color: "Dark Green", hex: "#0d2802", images: ["public/images/nightwear/2/5.jpg", "public/images/nightwear/2/6.jpg", "public/images/nightwear/2/7.jpg", "public/images/nightwear/2/8.jpg"] },
+      { color: "Blue", hex: "#4A7AB5", images: ["public/images/nightwear/2/9.jpg", "public/images/nightwear/2/10.jpg", "public/images/nightwear/2/11.jpg", "public/images/nightwear/2/12.jpg"] },
+      { color: "Red", hex: "#C0392B", images: ["public/images/nightwear/2/13.jpg", "public/images/nightwear/2/14.jpg", "public/images/nightwear/2/15.jpg", "public/images/nightwear/2/16.jpg"] },
+      { color: "Light Green", hex: "#5eac59", images: ["public/images/nightwear/2/17.jpg", "public/images/nightwear/2/18.jpg", "public/images/nightwear/2//19.jpg", "public/images/nightwear/2//20.jpg"] },
   ],
 },
   {
@@ -48,12 +48,12 @@ export const products = [
       tag: "Bestseller",
       hasVariants: true,
       variants: [
-      { color: "HOSIERY AB ORANGE PRINT", hex: "#e1b295", images: ["public/images/nightwear/3/1.jpeg", "public/images/nightwear/3/2.JPEG", "public/images/nightwear/3/3.JPEG", "public/images/nightwear/3/4.JPEG"] },
-      { color: "HOSIERY AB PINK PRINT ", hex: "#f18ebe", images: ["public/images/nightwear/3/5.JPEG", "public/images/nightwear/3/6.JPEG", "public/images/nightwear/3/7.JPEG", "public/images/nightwear/3/8.JPEG"] },
-      { color: "HOSIERY AB WC GREEN", hex: "#319756", images: ["public/images/nightwear/3/9.JPEG", "public/images/nightwear/3/10.jpg"] },
-      { color: "HOSIERY AB WC PINK", hex: "#ff247f", images: ["public/images/nightwear/3/11.JPEG", "public/images/nightwear/3/12.JPG"] },
-      { color: "HOSIERY AB FLOWER PINK", hex: "#c8294c", images: ["public/images/nightwear/3/13.JPEG", "public/images/nightwear/3/14.JPEG", "public/images/nightwear/3/15.JPEG", "public/images/nightwear/3/16.JPEG"] },
-      { color: "HOSIERY AB FLOWER ORANGE", hex: "#e3644b", images: ["public/images/nightwear/3/17.jpeg", "public/images/nightwear/3/18.JPeG", "public/images/nightwear/3/19.JPeG", "public/images/nightwear/3/20.JPeG"] },
+      { color: "HOSIERY AB ORANGE PRINT", hex: "#e1b295", images: ["public/images/nightwear/3/1.jpeg", "public/images/nightwear/3/2.jpeg", "public/images/nightwear/3/3.jpeg", "public/images/nightwear/3/4.jpeg"] },
+      { color: "HOSIERY AB PINK PRINT ", hex: "#f18ebe", images: ["public/images/nightwear/3/5.jpeg", "public/images/nightwear/3/6.jpeg", "public/images/nightwear/3/7.jpeg", "public/images/nightwear/3/8.JPEG"] },
+      { color: "HOSIERY AB WC GREEN", hex: "#319756", images: ["public/images/nightwear/3/9.jpeg", "public/images/nightwear/3/10.jpg"] },
+      { color: "HOSIERY AB WC PINK", hex: "#ff247f", images: ["public/images/nightwear/3/11.jpeg", "public/images/nightwear/3/12.jpg"] },
+      { color: "HOSIERY AB FLOWER PINK", hex: "#c8294c", images: ["public/images/nightwear/3/13.jpeg", "public/images/nightwear/3/14.jpeg", "public/images/nightwear/3/15.jpeg", "public/images/nightwear/3/16.jpeg"] },
+      { color: "HOSIERY AB FLOWER ORANGE", hex: "#e3644b", images: ["public/images/nightwear/3/17.jpeg", "public/images/nightwear/3/18.jpeg", "public/images/nightwear/3/19.jpeg", "public/images/nightwear/3/20.jpeg"] },
   ],
 },
   {
@@ -67,8 +67,8 @@ export const products = [
       tag: "Bestseller",
       hasVariants: true,
       variants: [
-      { color: "Kaftan Black", hex: "#000000", images: ["public/images/nightwear/4/1.JPG", "public/images/nightwear/4/2.JPG", "public/images/nightwear/4/3.JPG", "public/images/nightwear/4/4.JPG"] },
-      { color: "Kaftan Blue", hex: "#1b0694", images: ["public/images/nightwear/4/5.JPG", "public/images/nightwear/4/6.JPG", "public/images/nightwear/4/7.JPG", "public/images/nightwear/4/8.JPG"] },
+      { color: "Kaftan Black", hex: "#000000", images: ["public/images/nightwear/4/1.jpg", "public/images/nightwear/4/2.jpg", "public/images/nightwear/4/3.jpg", "public/images/nightwear/4/4.jpg"] },
+      { color: "Kaftan Blue", hex: "#1b0694", images: ["public/images/nightwear/4/5.jpg", "public/images/nightwear/4/6.jpg", "public/images/nightwear/4/7.jpg", "public/images/nightwear/4/8.jpg"] },
     ],
   },
  
@@ -83,10 +83,10 @@ export const products = [
       tag: "Popular",
       hasVariants: true,
       variants: [
-      { color: "Kimono Pink", hex: "#d9a1ff", images: ["public/images/nightwear/5/1.JPEG", "public/images/nightwear/5/2.JPEG", "public/images/nightwear/5/3.JPEG", "public/images/nightwear/5/4.JPEG"] },
-      { color: "Kimono Purple", hex: "#51045d", images: ["public/images/nightwear/5/5.JPEG", "public/images/nightwear/5/6.JPEG", "public/images/nightwear/5/7.JPEG", "public/images/nightwear/5/8.JPEG"] },
-      { color: "Kimono Blue", hex: "#140663", images: ["public/images/nightwear/5/9.JPG", "public/images/nightwear/5/10.JPG", "public/images/nightwear/5/11.JPG", "public/images/nightwear/5/12.JPG"] },
-      { color: "Kimono Black", hex: "#000000", images: ["public/images/nightwear/5/13.JPG", "public/images/nightwear/5/14.JPG", "public/images/nightwear/5/15.JPG", "public/images/nightwear/5/16.JPG"] },
+      { color: "Kimono Pink", hex: "#d9a1ff", images: ["public/images/nightwear/5/1.jpeg", "public/images/nightwear/5/2.jpeg", "public/images/nightwear/5/3.jpeg", "public/images/nightwear/5/4.jpeg"] },
+      { color: "Kimono Purple", hex: "#51045d", images: ["public/images/nightwear/5/5.jpeg", "public/images/nightwear/5/6.jpeg", "public/images/nightwear/5/7.jpeg", "public/images/nightwear/5/8.jpeg"] },
+      { color: "Kimono Blue", hex: "#140663", images: ["public/images/nightwear/5/9.jpg", "public/images/nightwear/5/10.jpg", "public/images/nightwear/5/11.jpg", "public/images/nightwear/5/12.jpg"] },
+      { color: "Kimono Black", hex: "#000000", images: ["public/images/nightwear/5/13.jpg", "public/images/nightwear/5/14.jpg", "public/images/nightwear/5/15.jpg", "public/images/nightwear/5/16.jpg"] },
     ],
   },
   {
@@ -100,10 +100,10 @@ export const products = [
       tag: "New",
       hasVariants: true,
       variants: [
-      { color: "SATIN AB TSHIRT RED", hex: "#c91f02", images: ["public/images/nightwear/6/1.JPG", "public/images/nightwear/6/2.JPG", "public/images/nightwear/6/3.JPG", "public/images/nightwear/6/4.JPG"] },
-      { color: "SATIN AB TSHIRT PURPLE", hex: "#51045d", images: ["public/images/nightwear/6/5.JPG", "public/images/nightwear/6/6.JPG", "public/images/nightwear/6/7.JPG", "public/images/nightwear/6/8.JPG"] },
-      { color: "SATIN AB TSHIRT PINK", hex: "#f22c88", images: ["public/images/nightwear/6/9.JPG", "public/images/nightwear/6/10.JPG", "public/images/nightwear/6/11.JPG", "public/images/nightwear/6/12.JPG"] },
-      { color: "SATIN AB TSHIRT PEACH", hex: "#f9c2b0", images: ["public/images/nightwear/6/13.JPG", "public/images/nightwear/6/14.JPG", "public/images/nightwear/6/15.JPG", "public/images/nightwear/6/16.JPG"] },
+      { color: "SATIN AB TSHIRT RED", hex: "#c91f02", images: ["public/images/nightwear/6/1.jpg", "public/images/nightwear/6/2.jpg", "public/images/nightwear/6/3.jpg", "public/images/nightwear/6/4.jpg"] },
+      { color: "SATIN AB TSHIRT PURPLE", hex: "#51045d", images: ["public/images/nightwear/6/5.jpg", "public/images/nightwear/6/6.jpg", "public/images/nightwear/6/7.jpg", "public/images/nightwear/6/8.jpg"] },
+      { color: "SATIN AB TSHIRT PINK", hex: "#f22c88", images: ["public/images/nightwear/6/9.jpg", "public/images/nightwear/6/10.jpg", "public/images/nightwear/6/11.jpg", "public/images/nightwear/6/12.jpg"] },
+      { color: "SATIN AB TSHIRT PEACH", hex: "#f9c2b0", images: ["public/images/nightwear/6/13.jpg", "public/images/nightwear/6/14.jpg", "public/images/nightwear/6/15.jpg", "public/images/nightwear/6/16.jpg"] },
     ],
   },
   {
@@ -117,10 +117,10 @@ export const products = [
       tag: "New",
       hasVariants: true,
       variants: [
-      { color: "SATIN AB SHIRT RED", hex: "#c91f02", images: ["public/images/nightwear/7/1.JPG", "public/images/nightwear/7/2.JPG", "public/images/nightwear/7/3.JPG", "public/images/nightwear/7/4.JPG"] },
-      { color: "SATIN AB SHIRT BLUE", hex: "#140663", images: ["public/images/nightwear/7/9.JPG", "public/images/nightwear/7/10.JPG", "public/images/nightwear/7/11.JPG", "public/images/nightwear/7/12.JPG"] },
-      { color: "SATIN AB SHIRT PINK", hex: "#f22c88", images: ["public/images/nightwear/7/5.JPG", "public/images/nightwear/7/6.JPG", "public/images/nightwear/7/7.JPG", "public/images/nightwear/7/8.JPG"] },
-      { color: "SATIN AB SHIRT YELLOW", hex: "#ffd700", images: ["public/images/nightwear/7/13.JPG", "public/images/nightwear/7/14.JPG", "public/images/nightwear/7/15.JPG", "public/images/nightwear/7/16.JPG"] },
+      { color: "SATIN AB SHIRT RED", hex: "#c91f02", images: ["public/images/nightwear/7/1.jpg", "public/images/nightwear/7/2.jpg", "public/images/nightwear/7/3.jpg", "public/images/nightwear/7/4.jpg"] },
+      { color: "SATIN AB SHIRT BLUE", hex: "#140663", images: ["public/images/nightwear/7/9.jpg", "public/images/nightwear/7/10.jpg", "public/images/nightwear/7/11.jpg", "public/images/nightwear/7/12.jpg"] },
+      { color: "SATIN AB SHIRT PINK", hex: "#f22c88", images: ["public/images/nightwear/7/5.jpg", "public/images/nightwear/7/6.jpg", "public/images/nightwear/7/7.jpg", "public/images/nightwear/7/8.jpg"] },
+      { color: "SATIN AB SHIRT YELLOW", hex: "#ffd700", images: ["public/images/nightwear/7/13.jpg", "public/images/nightwear/7/14.jpg", "public/images/nightwear/7/15.jpg", "public/images/nightwear/7/16.jpg"] },
     ],
   },
   {
@@ -134,10 +134,10 @@ export const products = [
       tag: "New",
       hasVariants: true,
       variants: [
-      { color: "HOSIERY AB SL YELLOW", hex: "#ffd700", images: ["public/images/nightwear/8/1.JPG", "public/images/nightwear/8/2.JPG", "public/images/nightwear/8/3.JPG", "public/images/nightwear/8/4.JPG", "public/images/nightwear/8/5.JPG"] },
-      { color: "HOSIERY AB BABY PINK", hex: "#ff69b4", images: ["public/images/nightwear/8/6.JPG", "public/images/nightwear/8/7.JPG", "public/images/nightwear/8/8.JPG", "public/images/nightwear/8/9.JPG", "public/images/nightwear/8/10.JPG"] },
-      { color: "HOSIERY AB PURPLE", hex: "#51045d", images: ["public/images/nightwear/8/11.JPG", "public/images/nightwear/8/12.JPG", "public/images/nightwear/8/13.JPG", "public/images/nightwear/8/14.JPG", "public/images/nightwear/8/15.JPG"] },
-      { color: "HOSIERY AB PINK", hex: "#f22c88", images: ["public/images/nightwear/8/16.JPG", "public/images/nightwear/8/17.JPG", "public/images/nightwear/8/18.JPG", "public/images/nightwear/8/19.JPG", "public/images/nightwear/8/20.JPG"] },
+      { color: "HOSIERY AB SL YELLOW", hex: "#ffd700", images: ["public/images/nightwear/8/1.jpg", "public/images/nightwear/8/2.jpg", "public/images/nightwear/8/3.jpg", "public/images/nightwear/8/4.jpg", "public/images/nightwear/8/5.jpg"] },
+      { color: "HOSIERY AB BABY PINK", hex: "#ff69b4", images: ["public/images/nightwear/8/6.jpg", "public/images/nightwear/8/7.jpg", "public/images/nightwear/8/8.jpg", "public/images/nightwear/8/9.jpg", "public/images/nightwear/8/10.jpg"] },
+      { color: "HOSIERY AB PURPLE", hex: "#51045d", images: ["public/images/nightwear/8/11.jpg", "public/images/nightwear/8/12.jpg", "public/images/nightwear/8/13.jpg", "public/images/nightwear/8/14.jpg", "public/images/nightwear/8/15.jpg"] },
+      { color: "HOSIERY AB PINK", hex: "#f22c88", images: ["public/images/nightwear/8/16.jpg", "public/images/nightwear/8(17).jpg", "public/images/nightwear(8)/18.jpg", "public/images/nightwear(8)/19.jpg", "public/images/nightwear(8)/20.jpg"] },
     ],
   },
 
