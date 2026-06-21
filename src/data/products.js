@@ -12,14 +12,11 @@ export const products = [
   tag: null,
   hasVariants: true,
   variants: [
-    { color: "Purple", hex: "#7B5EA7", images: ["public/images/nightwear/1/1.jpg", "public/images/nightwear/1/2.JPG", "public/images/nightwear/1/3.JPG", "public/images/nightwear/1/4.JPG"] },
     { color: "Light Blue", hex: "#87CEEB", images: ["public/images/nightwear/1/5.JPG", "public/images/nightwear/1/6.JPG", "public/images/nightwear/1/7.JPG", "public/images/nightwear/1/8.JPG"] },
-    { color: "Peach", hex: "#FFCBA4", images: ["public/images/nightwear/1/9.JPG", "public/images/nightwear/1/10.JPG", "public/images/nightwear/1/11.JPG", "public/images/nightwear/1/12.JPG"] },
+    { color: "Pink", hex: "#E8799B", images: ["public/images/nightwear/1/9.JPG", "public/images/nightwear/1/10.JPG", "public/images/nightwear/1/11.JPG", "public/images/nightwear/1/12.JPG"] },
     { color: "Khaki Green", hex: "#4e4f13c4", images: ["public/images/nightwear/1/13.JPG", "public/images/nightwear/1/14.JPG", "public/images/nightwear/1/15.JPG", "public/images/nightwear/1/16.JPG"] },
     { color: "Yellow", hex: "#FFD700", images: ["public/images/nightwear/1/17.JPG", "public/images/nightwear/1//18.JPG", "public/images/nightwear/1//19.JPG", "public/images/nightwear/1//20.JPG"] },
-    { color: "Pink", hex: "#E8799B", images: ["public/images/nightwear/1/21.JPG", "public/images/nightwear/1/22.JPG", "public/images/nightwear/1/23.JPG", "public/images/nightwear/1/24.JPG"] },
-    { color: "Orange", hex: "#FFA500", images: ["public/images/nightwear/1/29.JPG", "public/images/nightwear/1/30.JPG", "public/images/nightwear/1/31.JPG", "public/images/nightwear/1/32.JPG"] },
-    { color: "Blue", hex: "#4A7AB5", images: ["public/images/nightwear/1/33.JPG", "public/images/nightwear/1/34.JPG", "public/images/nightwear/1/35.JPG", "public/images/nightwear/1/36.JPG"] },
+    { color: "Peach", hex: "#FFCBA4", images: ["public/images/nightwear/1/29.JPG", "public/images/nightwear/1/30.JPG", "public/images/nightwear/1/31.JPG", "public/images/nightwear/1/32.JPG"] },
   ],
 },
   {
