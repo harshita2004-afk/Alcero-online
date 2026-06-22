@@ -70,7 +70,7 @@ const policies = [
       },
       {
         heading: "How to Initiate a Return",
-        body: "Email us at returns@kashmiraliving.in with your order ID, a brief reason for the return, and photographs of the product. Our team will respond within 48 hours with pickup arrangements.",
+        body: "Email us at returns@Shriradheyfashion01@gmail.com with your order ID, a brief reason for the return, and photographs of the product. Our team will respond within 48 hours with pickup arrangements.",
       },
       {
         heading: "Refunds",

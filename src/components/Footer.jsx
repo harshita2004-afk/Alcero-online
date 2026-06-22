@@ -55,8 +55,8 @@ export default function Footer() {
             <ul className="space-y-3 text-sm text-ivory/60">
               <li className="flex gap-2">
                 <span className="text-rose mt-0.5">✉</span>
-                <a href="mailto:shrijihome01@gmail.com" className="hover:text-rose transition-colors">
-                  shrijihome01@gmail.com
+                <a href="mailto:Shriradheyfashion01@gmail.com" className="hover:text-rose transition-colors">
+                  Shriradheyfashion01@gmail.com
                 </a>
               </li>
               <li className="flex gap-2">

@@ -36,8 +36,8 @@ export default function Contact() {
               {
                 icon: "✉️",
                 label: "Email",
-                value: "shrijihome01@gmail.com",
-                href: "mailto:shrijihome01@gmail.com",
+                value: "Shriradheyfashion01@gmail.com",
+                href: "mailto:Shriradheyfashion01@gmail.com",
               },
               {
                 icon: "📞",
