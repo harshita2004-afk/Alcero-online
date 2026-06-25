@@ -1,6 +1,8 @@
+import { useCart } from "../context/CartContext";
 import { useState } from "react";
 
 export default function ProductCard({ product }) {
+  const { addToCart } = useCart();
   const [activeVariant, setActiveVariant] = useState(0);
   const [activeImage, setActiveImage] = useState(0);
 
@@ -61,6 +63,20 @@ export default function ProductCard({ product }) {
               <span className="text-[11px] text-charcoal font-medium">
                 {product.variants[activeVariant].color}
               </span>
+              <button
+  onClick={() =>
+  addToCart({
+    ...product,
+    selectedColor: product.hasVariants
+      ? product.variants[activeVariant].color
+      : null,
+    selectedImage: currentImage,
+  })
+}
+  className="mt-4 w-full bg-charcoal text-white py-2.5 rounded-xl text-sm font-medium hover:opacity-90 transition"
+>
+  Add to Cart
+</button>
             </div>
             <div className="flex flex-wrap gap-1.5">
               {product.variants.map((variant, idx) => (
@@ -85,6 +101,7 @@ export default function ProductCard({ product }) {
         : variant.hex,
     }}
   />
+  
 </button>
               ))}
             </div>

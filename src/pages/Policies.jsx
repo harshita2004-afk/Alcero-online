@@ -173,8 +173,8 @@ export default function Policies() {
           <div className="mt-12 p-5 bg-blush/30 rounded-2xl border border-rose/10">
             <p className="text-sm text-muted">
               Questions about our policies? Write to us at{" "}
-              <a href="mailto:shrijihome01@gmail.com" className="text-rose hover:underline">
-                shrijihome01@gmail.com
+              <a href="mailto:Shriradheyfashion01@gmail.com" className="text-rose hover:underline">
+                Shriradheyfashion01@gmail.com
               </a>{" "}
               and we'll get back to you within 2 business days.
             </p>

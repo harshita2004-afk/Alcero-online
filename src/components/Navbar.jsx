@@ -1,9 +1,14 @@
 import { useState, useEffect } from "react";
 import { NavLink, Link } from "react-router-dom";
+import { useCart } from "../context/CartContext";
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
+  const { cart } = useCart();
+
+  
+  console.log("Cart:", cart);
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 40);
@@ -36,34 +41,63 @@ export default function Navbar() {
           </span>
         </Link>
 
-        {/* Desktop Nav */}
-        <nav className="hidden md:flex items-center gap-8">
-          {navItems.map(({ to, label }) => (
-            <NavLink
-              key={to}
-              to={to}
-              end={to === "/"}
-              className={({ isActive }) =>
-                `nav-link text-sm font-body font-medium tracking-wide transition-colors duration-200 ${
-                  isActive ? "text-rose active" : "text-charcoal hover:text-rose"
-                }`
-              }
-            >
-              {label}
-            </NavLink>
-          ))}
-        </nav>
+        
+       {/* Desktop Nav */}
+<nav className="hidden md:flex items-center gap-8">
+  {navItems.map(({ to, label }) => (
+    <NavLink
+      key={to}
+      to={to}
+      end={to === "/"}
+      className={({ isActive }) =>
+        `nav-link text-sm font-body font-medium tracking-wide transition-colors duration-200 ${
+          isActive ? "text-rose active" : "text-charcoal hover:text-rose"
+        }`
+      }
+    >
+      {label}
+    </NavLink>
+  ))}
+
+  <Link
+    to="/cart"
+    className="relative text-charcoal hover:text-rose transition"
+  >
+    🛒
+
+    {cart.reduce((total, item) => total + item.quantity, 0) > 0 && (
+      <span className="absolute -top-2 -right-3 bg-rose text-white text-[10px] w-5 h-5 rounded-full flex items-center justify-center">
+        {cart.reduce((total, item) => total + item.quantity, 0)}
+      </span>
+    )}
+  </Link>
+</nav>
 
         {/* Mobile Hamburger */}
-        <button
-          className="md:hidden flex flex-col gap-1.5 p-2"
-          onClick={() => setMenuOpen(!menuOpen)}
-          aria-label="Toggle menu"
-        >
-          <span className={`block w-5 h-0.5 bg-charcoal transition-all duration-300 ${menuOpen ? "rotate-45 translate-y-2" : ""}`} />
-          <span className={`block w-5 h-0.5 bg-charcoal transition-all duration-300 ${menuOpen ? "opacity-0" : ""}`} />
-          <span className={`block w-5 h-0.5 bg-charcoal transition-all duration-300 ${menuOpen ? "-rotate-45 -translate-y-2" : ""}`} />
-        </button>
+       <div className="md:hidden flex items-center gap-4">
+  <Link
+    to="/cart"
+    className="relative text-charcoal"
+  >
+    🛒
+
+    {cart.reduce((total, item) => total + item.quantity, 0) > 0 && (
+      <span className="absolute -top-2 -right-3 bg-rose text-white text-[10px] w-5 h-5 rounded-full flex items-center justify-center">
+        {cart.reduce((total, item) => total + item.quantity, 0)}
+      </span>
+    )}
+  </Link>
+
+  <button
+    className="flex flex-col gap-1.5 p-2"
+    onClick={() => setMenuOpen(!menuOpen)}
+    aria-label="Toggle menu"
+  >
+    <span className={`block w-5 h-0.5 bg-charcoal transition-all duration-300 ${menuOpen ? "rotate-45 translate-y-2" : ""}`} />
+    <span className={`block w-5 h-0.5 bg-charcoal transition-all duration-300 ${menuOpen ? "opacity-0" : ""}`} />
+    <span className={`block w-5 h-0.5 bg-charcoal transition-all duration-300 ${menuOpen ? "-rotate-45 -translate-y-2" : ""}`} />
+  </button>
+</div>
       </div>
 
       {/* Mobile Menu */}
